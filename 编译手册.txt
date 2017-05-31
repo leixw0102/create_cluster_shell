@@ -1,0 +1,5 @@
+编译 2.3hdp 命令如下
+mvn clean package -Dhdpversion=2.3
+
+编译 2.4hdp 命令如下
+mvn clean  package -Dhdpversion=2.4

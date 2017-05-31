@@ -1,0 +1,7 @@
+[5.6.27-2]
+name=5.6.27-2
+baseurl=http://ipaddress/MySQL
+
+path=/
+enabled=1
+gpgcheck=0

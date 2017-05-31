@@ -1,0 +1,7 @@
+#VERSION_NUMBER=2.2.2
+[Updates-ambari-2.2.2]
+name=Updates-ambari-2.2.2
+baseurl=http://ipaddress/Updates-ambari-2.2.2.0
+gpgcheck=0
+enabled=1
+

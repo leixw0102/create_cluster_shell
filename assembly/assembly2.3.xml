@@ -1,0 +1,34 @@
+﻿<assembly xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/assembly-1.0.0.xsd">
+    <id>hdp2.3</id>
+    <formats>
+        <format>tar.gz</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+		<fileSet>
+            <directory>auto-install</directory>
+            <outputDirectory>auto-install</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>../自动安装依赖RPM/centos7</directory>
+            <outputDirectory>auto-install/install-dependence/rpmSource/centos7</outputDirectory>
+        </fileSet>
+		<fileSet>
+            <directory>../自动安装依赖RPM/myself</directory>
+            <outputDirectory>auto-install/install-dependence/rpmSource/myself</outputDirectory>
+        </fileSet>
+		<fileSet>
+            <directory>../自动安装依赖RPM/MySQL</directory>
+            <outputDirectory>auto-install/install-dependence/rpmSource/MySQL</outputDirectory>
+        </fileSet>
+		<fileSet>
+            <directory>../自动安装依赖RPM/Updates-ambari-2.2.2.0</directory>
+            <outputDirectory>auto-install/install-dependence/rpmSource/Updates-ambari-2.2.2.0</outputDirectory>
+        </fileSet>
+       <fileSet>
+            <directory>../自动安装依赖RPM/HDP-RPM/2.3</directory>
+            <outputDirectory>auto-install/install-dependence/rpmSource/HDP-RPM/2.3</outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>

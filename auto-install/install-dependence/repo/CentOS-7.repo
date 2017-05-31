@@ -1,0 +1,5 @@
+[CentOS-7]
+name=CentOS-7
+baseurl=http://ipaddress/centos7
+enabled=1
+gpgcheck=0

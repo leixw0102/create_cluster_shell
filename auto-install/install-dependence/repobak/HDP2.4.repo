@@ -1,0 +1,7 @@
+[HDP-2.41]
+name=HDP-2.41
+baseurl=http://ipaddress/HDP-RPM/2.4/HDP/centos7
+
+path=/
+enabled=1
+gpgcheck=0

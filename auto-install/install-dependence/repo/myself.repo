@@ -1,0 +1,7 @@
+[myself1.0]
+name=myself1.0
+baseurl=http://ipaddress/myself
+
+path=/
+enabled=1
+gpgcheck=0

@@ -1,0 +1,7 @@
+[HDP2.41-UTILS-1.1.0.20]
+name=HDP2.41-UTILS-1.1.0.20
+baseurl=http://ipaddress/HDP-RPM/2.4/HDP-UTILS-1.1.0.20
+
+path=/
+enabled=1
+gpgcheck=0

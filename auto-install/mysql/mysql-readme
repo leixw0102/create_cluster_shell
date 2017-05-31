@@ -1,0 +1,12 @@
+1.enter mysql command
+mysql -uroot 
+
+2. create database && user for hive and grant on privileges
+
+create database hive;
+
+insert into mysql.user(Host,User,Password) values("","hive",password("hive"));
+
+grant all privileges on hive.* to 'hive'@localhost identified by 'hive';
+flush privileges;
+
